@@ -15,4 +15,6 @@ const NoSSR = dynamic(() => Promise.resolve(_NoSSR), {
   ssr: false,
 });
 
-
+export default function AppWrappers({ children }: any) {
+  return <NoSSR>{children}</NoSSR>;
+}
