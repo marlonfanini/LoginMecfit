@@ -13,17 +13,16 @@ import {
 
 const routes = [
   {
-    name: 'Main Dashboard',
-    layout: '/admin',
-    path: 'default',
-    icon: <MdHome className="h-6 w-6" />,
+    name: 'Sign In',
+    layout: '/auth',
+    path: 'sign-in',
+    icon: <MdLock className="h-6 w-6" />,
   },
   {
     name: 'NFT Marketplace',
     layout: '/admin',
     path: 'nft-marketplace',
     icon: <MdOutlineShoppingCart className="h-6 w-6" />,
-
     secondary: true,
   },
   {
